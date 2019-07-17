@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>car confirm</title>
+</head>
+<body>
+<p th:inline="text">
+    The car name of [[${car1.car_name}]]<br/>
+    with type [[${car1.car_type}]] can be described as
+    [[${car1.description}]]
+
+</p>
+</body>
+</html>
